@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 960px;
+	margin: auto;
+}
+
+.mainHeader {
+	border-bottom: 2px solid #cccccc;
+	padding: 20px 0;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+#myName {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 40px;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.about, .portfolio, .contacts {
+	padding: 0px 20px;
+}
+
+.about, .portfolio {
+	border-right: 1px solid #cccccc;
+}
