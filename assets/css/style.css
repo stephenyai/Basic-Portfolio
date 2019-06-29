@@ -1,6 +1,3 @@
-/*why won't words wrap around the picture?? - use float
-background image not showing - had to go back out the folder - so use '..'
-*/
 
 * {
 	box-sizing: border-box;
@@ -18,8 +15,8 @@ body {
 	flex-direction: column;
 }
 
-header {
-	width: 960px;
+a:link {
+	text-decoration: none;
 }
 
 .mainHeader {
